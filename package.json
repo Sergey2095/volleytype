@@ -1,11 +1,15 @@
 {
   "name": "volleytype",
   "version": "1.0.0",
-  "description": "type for volley app",
-  "main": "index.js",
+  "description": "types for volley app",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Zubyk Serhii",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.2.2"
+  }
 }
