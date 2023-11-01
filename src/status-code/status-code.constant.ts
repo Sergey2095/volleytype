@@ -1,7 +1,7 @@
-import {EnumAuthStatusCodeError} from "src/auth";
-import {EnumInternalStatusCodeError} from "src/error";
-import {EnumRequestStatusCodeError} from "src/request";
-import {EnumUserStatusCodeError} from "src/user";
+import {EnumAuthStatusCodeError} from "../auth";
+import {EnumInternalStatusCodeError} from "../error";
+import {EnumRequestStatusCodeError} from "../request";
+import {EnumUserStatusCodeError} from "../user";
 
 export const ErrorStatusCodeMap = {
   ...EnumRequestStatusCodeError,
