@@ -11,5 +11,9 @@
   "license": "ISC",
   "dependencies": {
     "typescript": "^5.2.2"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {}
 }
