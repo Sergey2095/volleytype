@@ -1,4 +1,4 @@
-import { IMessage } from './response';
+import { IMessage } from './response.interface';
 export interface IErrors {
   readonly message: string | IMessage;
   readonly property: string;
