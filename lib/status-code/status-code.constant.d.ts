@@ -2,8 +2,10 @@ import { EnumAuthStatusCodeError } from "../auth";
 import { EnumInternalStatusCodeError } from "../error";
 import { EnumRequestStatusCodeError } from "../request";
 import { EnumUserStatusCodeError } from "../user";
+import { EnumTrainingStatusCodeError } from "../training";
 export declare const ErrorStatusCodeMap: {
     [x: number]: string;
+    TrainingNotFoundError: EnumTrainingStatusCodeError.TrainingNotFoundError;
     UserNotFoundError: EnumUserStatusCodeError.UserNotFoundError;
     UserExistsError: EnumUserStatusCodeError.UserExistsError;
     UserInactiveError: EnumUserStatusCodeError.UserInactiveError;
