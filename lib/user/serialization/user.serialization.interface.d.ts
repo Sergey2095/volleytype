@@ -5,10 +5,10 @@ export interface IUserBaseSerialization {
     email: string;
     fullName: string;
     isActive: boolean;
+    avatar?: string;
 }
 export interface IProfileSerialization {
     birthDate?: Date;
-    avatar?: string;
     bio?: string;
     height?: number;
     weight?: number;
