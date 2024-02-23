@@ -1,4 +1,4 @@
-import { EnumUserProfilePosition } from '../profile';
+import { EnumUserProfilePosition, EnumUserProfileAmplua } from '../profile';
 export interface IUserBaseSerialization {
   id: string;
   username: string;
@@ -13,6 +13,8 @@ export interface IProfileSerialization {
   bio?: string;
   height?: number;
   weight?: number;
+  vertical?: number;
+  amplua?: EnumUserProfileAmplua,
   position?: EnumUserProfilePosition;
 }
 

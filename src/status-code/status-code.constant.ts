@@ -1,7 +1,7 @@
 import {EnumAuthStatusCodeError} from "../auth";
 import {EnumInternalStatusCodeError} from "../error";
 import {EnumRequestStatusCodeError} from "../request";
-import {EnumUserStatusCodeError} from "../user";
+import {EnumUserStatusCodeError, EnumUserProfileStatusCodeError} from "../user";
 import {EnumTrainingStatusCodeError} from "../training";
 
 export const ErrorStatusCodeMap = {
@@ -10,6 +10,7 @@ export const ErrorStatusCodeMap = {
   ...EnumAuthStatusCodeError,
   ...EnumUserStatusCodeError,
   ...EnumTrainingStatusCodeError,
+  ...EnumUserProfileStatusCodeError,
 
   // CHECK NEXT STATUS CODE ERROR NUMBER HERE (leave ~100 gap/buffer)
 };
